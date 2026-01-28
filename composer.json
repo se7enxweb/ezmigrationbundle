@@ -1,9 +1,9 @@
 {
-    "name": "kaliop/ezmigrationbundle",
+    "name": "se7enxweb/ezmigrationbundle",
     "type": "symfony-bundle",
     "description": "Kaliop eZ-Migration Bundle",
     "keywords": ["migrations", "database", "ezpublish"],
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Gaetano Giunta",
@@ -32,7 +32,7 @@
         "mtdowling/jmespath.php": "2.*"
     },
     "require-dev": {
-        "mikey179/vfsStream": "~1.2.0",
+        "mikey179/vfsstream": "~1.2.0",
         "polishsymfonycommunity/symfony2-mocker-extension": "*",
         "phpunit/phpunit": "~4.0",
         "codeclimate/php-test-reporter": "~0.4"
