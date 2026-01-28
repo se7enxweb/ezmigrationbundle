@@ -1,9 +1,9 @@
 {
-    "name": "kaliop/ezmigrationbundle",
+    "name": "se7enweb/ezmigrationbundle",
     "type": "symfony-bundle",
-    "description": "Kaliop eZ-Migration Bundle",
+    "description": "7x Exponential-eZ Migration Bundle (From Kaliop)",
     "keywords": ["migrations", "database", "ezpublish"],
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Gaetano Giunta",
@@ -24,7 +24,7 @@
     "require": {
         "php": ">=5.6",
         "ext-pdo": "*",
-        "ezsystems/ezpublish-kernel": ">=5.4|>=2014.11",
+        "se7enxweb/ezpublish-kernel": ">=5.4|>=2014.11",
         "mtdowling/jmespath.php": "2.*",
         "nikic/php-parser": "^2.0 || ^3.0 || ^4.0",
         "symfony/process": "*",
@@ -44,8 +44,8 @@
         "php-http/httplug-bundle": "Required for usage of HTTP/CALL migration steps"
     },
     "conflict": {
-        "netgen/tagsbundle": "1.*",
-        "ezsystems/ezpublish-kernel": "6.7.3",
+        "se7enxweb/tagsbundle": "1.*",
+        "se7enxweb/ezpublish-kernel": "6.7.3",
         "symfony/symfony": "3.4.12"
     },
     "autoload": {
