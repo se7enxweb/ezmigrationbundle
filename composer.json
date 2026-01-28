@@ -1,5 +1,5 @@
 {
-    "name": "se7enweb/ezmigrationbundle",
+    "name": "se7enxweb/ezmigrationbundle",
     "type": "symfony-bundle",
     "description": "7x Exponential-eZ Migration Bundle (From Kaliop)",
     "keywords": ["migrations", "database", "ezpublish"],
