@@ -45,8 +45,7 @@
     },
     "conflict": {
         "se7enxweb/tagsbundle": "1.*",
-        "se7enxweb/ezpublish-kernel": "6.7.3",
-        "symfony/symfony": "3.4.12"
+        "se7enxweb/ezpublish-kernel": "6.7.3"
     },
     "autoload": {
         "psr-4": { "Kaliop\\eZMigrationBundle\\": "" }
